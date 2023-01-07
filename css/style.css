@@ -8,17 +8,18 @@
 header{
     background:url('/images/banner/banner2.png');
     display: flex;
-    padding: 12% 0 ;
+    padding: 16% 0 ;
     background-size: cover;
    
 }
 .header-section{
-    padding-top: 50px;
-    max-width: 50%;
+    align:right;
     float:right;
-    text-align: right;
-   
-   
+    text-align: right; 
+}
+.header-content{
+    padding: 0 5% 0 50%;
+
 }
 .header-image img{
     width: 70%;
@@ -39,8 +40,19 @@ header{
 }
 .btn-primary{
     color: #fff;
+    font-size: 25px;
     padding: 10px 30px;
     background-color:  #F15B22;;
+    border: none;
+    border-radius: 5px;
+   margin-top: 20px;
+}
+
+.btn-secondary{
+    background: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    color:  #F15B22;;
     border: none;
     border-radius: 5px;
    margin-top: 20px;
@@ -122,14 +134,7 @@ header{
 .watch-content h5{
     font-size: 1.5rem;
 }
-.btn-secondary{
-    background: #fff;
-    padding: 10px 30px;
-    color:  #F15B22;;
-    border: none;
-    border-radius: 5px;
-   margin-top: 20px;
-}
+
 /* ***************************************Our Team**************************************** */
 .team-secton{
     display: flex;
