@@ -6,7 +6,7 @@
 
 /* *****************header styles************************* */
 header{
-    background:url('/images/banner/banner2.png');
+    background:url('../images/banner/banner2.png');
     display: flex;
     padding: 16% 0 ;
     background-size: cover;
