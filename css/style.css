@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    font-family: 'poppins';
+}
+
+/* *****************header styles************************* */
+header{
+    background-color: #dccece8a;
+    display: flex;
+    padding: 90px 100px ;
+   
+}
+.header-section{
+    padding-top: 50px;
+    max-width: 50%;
+    float:right;
+    text-align: right;
+   
+   
+}
+.header-image img{
+    width: 70%;
+}
+
+/* ******************section more info that use almost section ************ */
+.section-title{
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 76px;
+    color: #151414;
+
+}
+.section-description{
+    font-size: 16px;
+    color: #444343;
+    line-height: 30px;
+}
+.btn-primary{
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #db1281e4;
+    border: none;
+    border-radius: 5px;
+   margin-top: 20px;
+}
+/* ******************main section styles********************************** */
+
+
+/* ****************About section styles********************** */
+
+.about-course{
+    max-width: 80%;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.about-image{
+    max-width: 50%;
+}
+
+.about-image img{
+    width: 100%;
+}
+
+.about-content{
+   
+    max-width: 50%;
+}
+.about-title{
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+/* *******************course plan section styles*************** */
+.course-section{
+    max-width: 80%;
+    margin:4rem auto
+}
+.section-header{
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.courses{
+    display: flex;
+    max-width: 90%;
+    margin: 2rem auto;
+    justify-content: center;
+    gap:10%;
+    text-align: center;
+}
+.course-title{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #151414;
+}
