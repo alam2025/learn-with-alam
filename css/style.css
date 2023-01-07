@@ -81,6 +81,9 @@ header{
    
     max-width: 50%;
 }
+li>i{
+    color: green;
+}
 .about-title{
     font-size: 1.7rem;
     font-weight: 700;
@@ -169,7 +172,7 @@ footer{
     display: flex;
     margin: auto auto;
     padding: 10% 13%;
-    gap:3%;
+    gap:4%;
   
 }
 .footer-dialog{
