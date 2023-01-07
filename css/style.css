@@ -50,7 +50,7 @@ header{
 
 .about-course{
     max-width: 80%;
-    margin: auto auto;
+    margin: 5rem auto 0;
     display: flex;
     align-items: center;
     gap: 5%;
@@ -74,9 +74,9 @@ header{
 }
 
 /* *******************course plan section styles*************** */
-.course-section{
+.section{
     max-width: 80%;
-    margin:4rem auto
+    margin:5rem auto 0;
 }
 .section-header{
     font-weight: 700;
@@ -99,4 +99,23 @@ header{
 
 .course-img{
     width: 100px;
+}
+
+/* *************Gradient use in watch section***********************/
+.gradient{
+    max-width: 70%;
+    margin: 5rem auto 0;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('../images/watch.png');
+    border-radius: 8px;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    
+}
+.watch-content{
+    max-width: 45%;
+    padding: 60px 64px;
+}
+.watch-content h5{
+    font-size: 1.5rem;
 }
