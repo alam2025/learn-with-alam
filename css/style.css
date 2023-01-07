@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    font-family: 'poppins';
+    font-family:'poppins';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* *****************header styles************************* */
@@ -38,7 +39,7 @@ header{
 .btn-primary{
     color: #fff;
     padding: 10px 30px;
-    background-color: #db1281e4;
+    background-color:  #F15B22;;
     border: none;
     border-radius: 5px;
    margin-top: 20px;
@@ -104,8 +105,9 @@ header{
 /* *************Gradient use in watch section***********************/
 .gradient{
     max-width: 70%;
-    margin: 5rem auto 0;
+    margin: 5rem auto 2rem;
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('../images/watch.png');
+    /* background: url('../images/gradient1.png'),url('../images/watch.png'); */
     border-radius: 8px;
     background-repeat: no-repeat;
 
@@ -118,4 +120,74 @@ header{
 }
 .watch-content h5{
     font-size: 1.5rem;
+}
+.btn-secondary{
+    background: #fff;
+    padding: 10px 30px;
+    color:  #F15B22;;
+    border: none;
+    border-radius: 5px;
+   margin-top: 20px;
+}
+
+
+/* *****************************footer********************* */
+footer{
+    max-width: 100%;
+    background-color: #131417;;
+    color: #fff;
+    padding: 0;
+    
+}
+
+.footer-content{
+    display: flex;
+    margin: auto auto;
+    padding: 10% 13%;
+    gap:3%;
+  
+}
+.footer-dialog{
+    max-width: 30%;
+
+}
+.contact{
+    max-width: 30%;
+
+}
+
+.newsletter{
+    max-width: 40%;
+
+}
+footer h3{
+    color: #F8F8F8;
+    font-size: 1.3rem;
+    line-height: 45px;
+}
+footer p{
+    font-size: 15px;
+    line-height: 30px;
+}
+.social-link{
+    display: flex;
+    gap:10%;
+    margin-top: 3%;
+}
+.social-link img{
+    width: 15%
+}
+.subscribe-input{
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    padding: 8px 16px;
+
+}
+.btn-subscribe{
+   color: #F8F8F8; 
+   border: none;
+   border-radius: 5px;
+   background:#F15B22;
+   padding: 8px 16px;
+   margin-left: -6px;
 }
